@@ -5,7 +5,7 @@
   "main": "script",
   "repository": {
       "type": "git",
-      "url": "https://github.com/circlingthesun/systemjs-script-plugin.git"
+      "url": "https://github.com/udemy/systemjs-script-plugin.git"
     },
     "bugs": {
       "url": "https://github.com/circlingthesun/systemjs-script-plugin/issues"
