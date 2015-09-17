@@ -7,9 +7,6 @@ exports.locate = function(load) {
     var name = load.name.replace(/^(https?:)?\/\//, '');
     return window.location.protocol + '//' + name;
 };
-exports.locate = function(load) {
-  return window.location.protocol + '//' + load.name;
-};
 
 exports.fetch = function(load) {
     return new Promise(function(resolve, reject) {
